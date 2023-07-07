@@ -35,9 +35,13 @@ export default {
       ssr: true // 开启服务端渲染
     },
     {
-      src: '@/plugins/element-ui',
+      src: '@/plugins/ant-design-vue',
       ssr: true,
       // mode: 'server' // or client // v2.4+
+    },
+    {
+      src: '@/plugins/element-ui',
+      ssr: false,
     },
     '~/plugins/mixins',
       '~/plugins/router',
